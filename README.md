@@ -27,6 +27,7 @@ This API receives a name as a query parameter, calls the Genderize.io API, and r
 ---
 
 ## Project Structure
+```text
 hng-stage0/
 ├── core/                  # Django project settings and root URLs
 │   ├── settings.py
@@ -38,6 +39,7 @@ hng-stage0/
 ├── requirements.txt       # Project dependencies
 ├── manage.py
 └── README.md
+```
 
 ---
 
