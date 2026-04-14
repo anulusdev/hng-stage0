@@ -53,7 +53,7 @@ hng-stage0/
 
 **1. Clone the repository**
 ```bash
-git clone https://github.com/YOURUSERNAME/hng-stage0.git
+git clone https://github.com/anulusdev/hng-stage0.git
 cd hng-stage0
 ```
 
@@ -87,7 +87,7 @@ Predicts the gender of a given name.
 ## Deployment
 
 This API is deployed on Railway and publicly accessible at:
-https://YOURAPP.up.railway.app
+https://hng-stage-0-production-xxxx.up.railway.app
 
 **Live endpoint example:**
-https://YOURAPP.up.railway.app/api/classify?name=john
+https://hng-stage-0-production-xxxx.up.railway.app/api/classify?name=musa
