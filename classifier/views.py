@@ -1,8 +1,10 @@
+from django.views.decorators.csrf import csrf_exempt
 from django.http import JsonResponse
 import requests
 from datetime import datetime, timezone
 
 
+@csrf_exempt
 def classify_name(request):
     if request.method != 'GET':
         return JsonResponse(
